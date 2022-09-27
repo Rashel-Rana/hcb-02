@@ -1,0 +1,130 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   background-color: #e8e7ee;
+
+}
+.heading-of-a-section{
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   background-color: #1D2A35;
+   color:green;
+}
+cite{
+   color: red;
+}
+abbr{
+   background-color: black;
+   color: white;
+
+}
+address{
+   box-sizing: border-box;
+   font-style: italic;
+   
+}
+.browser{
+   text-align: center;
+}
+aside{
+   float: right;
+   right: 10px;
+   width: 30%;
+   text-align: center;
+   background-color: aqua;
+}
+.carouselExampleIndicators{
+   
+}
+.a-tag-in-ul-li ul li{
+   list-style: none;
+   text-decoration: none;
+   background-color: #1D2A35;
+   color: #a4a0bb;
+   text-align: center;
+   padding-bottom:20px ;
+   left: 0%;
+
+}
+.a-tag-in-ul-li a{
+   text-decoration: none;
+}
+.a-tag-in-ul-li a:hover{
+   color: greenyellow;
+   transition: all 0.3s ease-in;
+
+}
+#logo-img{
+   border-radius: 50%;
+}
+.abbriviation{
+   background-color: #a4a0bb;
+   color: rgb(10, 10, 247);
+}
+.abbriviation ul li{
+   text-align: center;
+   list-style-type: none;
+   margin-top: 20px;
+}
+.area-tag{
+   background-color: darkslategray;
+   text-align: center;
+   padding-bottom: 40px;
+   margin-top: 30px;
+}
+.heading-area-tag{
+   text-transform: uppercase;
+   color: bisque;
+}
+.all-browser{
+   padding-bottom: 30px;
+}
+.article-tag{
+   text-align: center;
+   background-color: #1D2A35;
+   color:rgb(190, 118, 30);
+}
+.browser-heading{
+   text-transform: uppercase;
+   text-align: center;
+}
+.browser-para{
+   text-align: justify;
+   margin: 50px;
+}
+.browser{
+   margin: 50px;
+   text-align: justify;
+
+}
+.browser-name{
+   text-transform:lowercase;
+   color: aquamarine;
+   text-align: center;
+}
+.browser p{
+   text-align: center;
+   color: aliceblue;
+}
+.browser-name >.logo{
+   color: rgb(42, 121, 26);
+}
+.aside-tag{
+   background-color: #a4a0bb;
+   text-align: center;
+   padding: 50px;
+}
+.aside{
+   position: relative;
+   overflow: hidden;
+
+}
+aside{
+   position: absolute;
+   top: 100px;
+   
+}

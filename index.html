@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="html, html5,Practice html">
+   <meta name="description" content="This is a web site where we will Practice html 5 all TAGS and attributes">
+   <meta name="author" content="RASHEL">
+
+   <!-- title and different links are added bellow -->
+   <title>Practice html 5</title>
+   <link rel="shortcut icon" href="image/tpc.png" type="image/x-icon">
+   <!-- bootstrap 5 cdn -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <!-- Fontawesome cdn -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   <!-- google fonts cdn -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+   
+   <!-- own customise css files -->
+   <link rel="stylesheet" href="rwd.css">
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <div class="container-fluid">
+      <div class="heading-of-a-section">
+         <h4 class="p-3">Now we will practice &lt;a&gt; Anchor &lt;/a&gt; tag and it's attributes </h4>
+      </div>
+      <div class="a-tag-in-ul-li">
+         <ul>
+            <li><a href="image/banner2.jpg"> image</a> <span> It is an internal image link</span></li>
+            <li><a href="audio/01. Sada.mp3" target="_blank">audio</a> It is an audio link with <cite>target</cite> attribute</li>
+            <li><a href="video/ghuri tumi.mp4" target="_blank">video</a> <span> It is an internal vedio link with <cite>target</cite> attribute</span></li>
+            <li> <a href="document/250_Oxford_Practice_Grammar_with_Answers.pdf" media="print and (resolution:300dpi)">Grammar </a> <span> It is an internal document link</span></li>
+            <li> <a href="https://www.youtube.com" target="_blank"> Visit Youtube</a> <span>It is an external web link with <cite>target</cite> attribute</span></li>
+            <li><a href="demo.html"> about us</a> <span> this an Internal page link </span></li>
+            <li><a href="https://www.youtube.com/watch?v=qLsLhiHg8f8&list=RDqLsLhiHg8f8&start_radio=1">watch video</a> It is a video link form <cite>Youtube</cite></li>
+
+            <li><a href="demo.html"><img src="image/tpc.png" id="logo-img" alt="image" width="100px"> click on the image</a> It is link set on an image</li>
+            <!-- a tag with download attribute and button tag as download option -->
+            <li>
+               <img src="image/playground-99509_1920.jpg" alt="image" width="100px">
+                  <a href="image/playground-99509_1920.jpg" download="playground" ping="image/playground-99509_1920.jpg/trackpings"> 
+                  <button> Download</button> 
+                  </a> It is an internal image with <cite>download </cite> attribute
+            </li>
+
+            <li>
+               <audio controls src="audio/01. Sada.mp3"></audio>
+                  <a href="audio/01. Sada.mp3" download="sada" >
+                     <button class="btn btn-primary">download the audio</button>
+                  </a>
+                  It is an internal audio with <cite> Download</cite> attribute.
+            </li>
+            <li>
+               <video controls src="video/ghuri tumi.mp4" width="100px"></video>
+                  <a href="video/ghuri tumi.mp4" download="ghuri">
+                     <button>Download Video</button>
+                  </a>
+                  It is an internal video with <cite> Download</cite> attribute.
+
+            </li>
+            <li>
+               <video controls src="https://www.youtube.com/watch?v=qLsLhiHg8f8&list=RDqLsLhiHg8f8&start_radio=1"></video>
+                  <a href="https://www.youtube.com/watch?v=qLsLhiHg8f8&list=RDqLsLhiHg8f8&start_radio=1" download="ghori">
+                     <button> Download Video</button>
+                
+                  </a>
+                    It is an external video form youtube with <cite> Download</cite> attribute.
+            </li>
+
+
+
+         </ul>
+  
+      </div>
+      <div class="heading-of-a-section">
+         <h4 class="p-3">Now we will practice &lt;abbr&gt; Abbriviation &lt;/abbr&gt; tag and it's attributes </h4>
+      </div>
+      <div class="abbriviation">
+         <ul>
+            <li> <abbr title="Cascading style Sheet">CSS</abbr> is a language to design html document OR web pages layouts</li>
+            
+            <li> <dfn><abbr title="Cascading style Sheet">CSS</abbr></dfn>is a language to design html document OR web pages layouts <cite> words in dfn tag shows somewhat italic format</cite> </li>
+
+            <li>
+               <h5> HTML DOM Abbreviation Object</h5>
+               <h6> now we will use ID ,Title and js function </h6>
+               <p>
+                  <abbr id="myAbbr" title="Cascading style Sheet"> CSS</abbr> IS pOWerFull. <br>
+                  <button onclick="myFunction()"> FIND dfN Of cSS</button>
+                  <p id="de"></p>
+               </p>
+              
+            </li>
+
+         </ul>
+      </div>
+      <div class="address-section">
+         <div class="heading-of-a-section">
+            <h4 class="p-3">Now we will practice &lt;address&gt; Address &lt;/address&gt; tag and it's attributes </h4>
+         </div>
+            <ul>
+               <li> 
+                  <address class="bg-info text-center" contenteditable="false" draggable="true">
+                     <img src="image/logo.png" alt="logo" width="100px"> <br>
+                     This page is designed by <a href="https://www.youtube.com" target="_blank"> Rashel Rana</a> <br>
+                     Email: <a href="https://www.gmail.com/ranarashel24.bd@gmail.com">ranarashel24.bd@gmail.com</a> <br>
+                     PHONE: <a href="tel:+088 01723 384 850">01723384850</a> <br>
+                     Dhaka,bangladesh <br>
+                     <cite> In this tag contenteditable and draggable Global attributes are APPLIED/used</cite> <br>
+                     N.B:  <cite> Inside address Tag all other HTML tags can be used</cite>
+                  </address>
+               </li>             
+            </ul>
+         </div>
+         <div class="area-tag">
+            <div class="heading-of-a-section">
+               <h4 class="p-3">Now we will practice &lt;area&gt;ImG UseMAP map area &lt;/area&gt; tag and it's attributes </h4>
+            </div>
+               <h3 class="heading-area-tag text-center"> To Find CO-ordinateS OF AN IMAGE MAp VISIT <a href="https://www.image-map.net/" target="_blank"><br> https://www.image-map.net/</a></h3>
+
+               <img src="image/students-1807505_1920.jpg" alt="students-1807505_1920"  loading="lazy"  width="500px" height="auto" usemap="#studentmap" >
+                  <map name="studentmap">
+                     <area target="_blank" alt="" title="cLiCk to FinD somethIng linked On THE COMPUter" href="https://www.youtube.com" coords="113,150,191,207" shape="rect">
+                     <area target="" alt="" title="" href="" coords="243,198,318,255" shape="rect">
+                     <area target="" alt="" title="" href="" coords="336,149,324,167,321,182,326,190,326,204,324,220,326,233,341,241,360,239,386,237,396,235,415,233,407,245,390,245,376,248,446,228" shape="poly">
+
+                  </map>   
+
+
+         </div>
+         <div class="article-tag">
+            <div class="heading-of-a-section">
+               <h4 class="p-3">Now we will practice &lt; article&gt;ARTICLE &lt;/article&gt; tag and it's attributes </h4>
+            </div>
+               <article class="all-browser">
+                  <h2 class="browser-heading"> AlL My fAVorIATE broWer ArE LISTED BELLOW</h2>
+                  <p class="browser-para"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit voluptatum facere animi mollitia, dolores molestias pariatur doloremque atque officia corrupti aperiam temporibus. Sunt, culpa, similique, accusamus nisi doloribus voluptate obcaecati ipsam blanditiis animi nihil reprehenderit. Quis explicabo deleniti, beatae consectetur eum in suscipit consequatur, aliquid laborum aut modi! Iure tempora suscipit est laudantium sunt doloremque distinctio tenetur veniam rerum dolorum fugiat ex amet officia commodi sit, officiis repudiandae animi possimus perferendis mollitia eos nisi non voluptas. Aperiam alias minus nemo quibusdam vitae nisi expedita saepe minima fuga fugit et facilis voluptas facere quos, consequatur odio, sequi hic. Dicta, dolorum veniam?</p>
+                  <article class="browser">
+                     <h4 class="browser-name"> <i 4x class=" fa-brands fa-chrome logo" ></i> gOOGLE cHROME</h4>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nemo saepe, fugit ab sint repudiandae enim laborum nihil aspernatur veritatis.</p>
+                  </article>
+                  <article class="browser">
+                     <h4 class="browser-name"> <i class="fa-brands fa-firefox-browser logo"></i> MoZILA FIREFOX</h4>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas corrupti veniam, vero suscipit itaque nesciunt. Iusto dicta reiciendis amet laborum?</p>
+                  </article>
+                  <article class="browser">
+                     <h4 class="browser-name"> <i class="fa-brands fa-opera logo"></i> OPERA MINI</h4>
+                     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquam nemo, quo dolores soluta itaque. Blanditiis commodi magnam vitae nisi.</P>
+                  </article>
+               </article>
+
+
+         </div>
+         <div class="aside-tag">
+            <div class="heading-of-a-section">
+               <h4 class="p-3">Now we will practice &lt; aside&gt;aside &lt;/aside&gt; tag and it's attributes </h4>
+            </div>
+            <div class="aside">
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus asperiores, alias ad nesciunt voluptatum minima quod officiis labore! A, consequuntur fugit? Vel reprehenderit fugiat tempora facere cum placeat ab? Quidem corrupti voluptates incidunt id, nisi in aperiam doloremque, impedit cum ab a commodi ipsum omnis neque, sequi fugit laboriosam maxime.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae recusandae impedit laboriosam exercitationem blanditiis deleniti! Necessitatibus sit consequuntur consectetur? Explicabo nesciunt quos quae atque molestiae optio sed error quaerat quas a molestias exercitationem illo commodi mollitia quia eum neque quisquam est dolore, in voluptate alias quidem eligendi vel. Quisquam, sequi. Hic cumque nesciunt debitis eos, obcaecati vitae voluptatem consequuntur, esse, culpa itaque rerum. Quos voluptas eligendi consequuntur temporibus neque commodi laborum aliquid expedita dolor ut architecto esse illo iste beatae quibusdam provident sequi deleniti, quis soluta sed accusamus! Est soluta voluptatibus sit quod ea, unde, quae tenetur nostrum illo expedita in dolor odio magnam aperiam, vitae omnis. Similique quae delectus pariatur adipisci doloribus laborum sunt
+                  <aside contenteditable="true">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa delectus quam quaerat quidem! Architecto hic ipsam aliquid perspiciatis? Placeat voluptate natus fugit eum, illum nostrum error voluptates est pariatur obcaecati iste nisi tempora aliquid blanditiis quibusdam dolor. Magni laborum libero alias quia. Ea doloremque accusamus iure omnis dolores, et earum.
+                  </aside> repellat perspiciatis neque voluptate, eum, mollitia laboriosam fugiat maxime! Incidunt impedit sed totam ducimus, quae molestias laudantium ut cum eligendi accusantium id. Unde asperiores cupiditate adipisci, ratione facere necessitatibus reiciendis enim doloremque consequatur esse illum voluptatibus deleniti, harum vitae aut delectus quae ea ab vel! Sint eos voluptatibus, exercitationem id culpa qui autem ducimus inventore obcaecati officia numquam laudantium accusamus corporis esse, eveniet reprehenderit pariatur perspiciatis voluptas fugit magni saepe consectetur vel. Aut necessitatibus tempore quisquam, maiores, accusantium iure nisi inventore praesentium iusto mollitia laboriosam rem. Cum maiores suscipit consectetur, quasi aliquam natus, magnam ratione laudantium nisi tempora cupiditate officiis numquam sed vel. Itaque, dignissimos. Eligendi delectus atque saepe facere quos tempore asperiores quae ad dolorum consequatur dignissimos ex odio, debitis, eos consequuntur velit! Minus eveniet voluptas tempore quasi corrupti temporibus quas nesciunt adipisci veniam! Quos amet harum magni quaerat ad corporis repudiandae! Earum tenetur consequuntur molestias natus illum ea corrupti! Quis aspernatur omnis voluptate deserunt et fugit, tempora ipsum! Perspiciatis minima et earum dolorum at odit neque ducimus! Est, aliquam voluptatem veritatis numquam recusandae maiores laboriosam incidunt? Architecto earum cumque praesentium velit placeat! Porro.
+               </p>
+               
+               
+            </div>
+
+         </div>
+
+         
+
+   </div>
+
+   <!-- bootstrap 5 script files -->
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>  
+
+   <!-- own customise js files -->
+   <script src="index.js"></script>
+</body>
+</html>
